@@ -49,7 +49,7 @@ export class CarsService {
       if (car.id == id) {
         carDB = {
           ...car,
-          ...carDB,
+          ...updateCarDto,
         };
         return carDB;
       }
